@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-x--rows-2 {
+  display: grid; /* Establishes the grid layout */
+  grid-template-rows: auto auto; /* Creates two rows with flexible heights */
+  grid-auto-flow: column; /* Arranges items as columns */
+  overflow-x: scroll; /* Enables horizontal scrolling */
+}
