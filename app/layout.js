@@ -13,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ backgroundColor: "#F9F4EC" }} className={inter.className}>
+      <body
+        style={{
+          background: "linear-gradient(to right, #ECE4D6, #F9F4EC, #ECE4D6)",
+        }}
+        className={inter.className}
+      >
         <Nav />
         {children}
         <Footer />

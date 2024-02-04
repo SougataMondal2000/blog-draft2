@@ -12,7 +12,7 @@ const Nav = () => {
   };
   console.log(dark);
   return (
-    <nav className="flex justify-around items-center md:px-20 md:py-10 pt-2">
+    <nav className="flex justify-around items-center md:px-10 md:py-5 pt-2">
       <Image src={logo} alt="logo" width={60} height={60} />
       <button onClick={handleDark} className="">
         {dark === true ? (
